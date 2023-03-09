@@ -7,7 +7,7 @@ body, html {
 body {
 	background-color: hsl(30, 38%, 92%);
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: .875rem;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -15,14 +15,14 @@ body {
 }
 
 main {
-	max-width:600px;
+	max-width:37.5rem;
  	display: flex;
 }
 
 #left-div, #right-div {
-	height: 450px;
-	width: 300px;
-	border-radius: 8px 0 0 8px;
+	height: 28.125rem;
+	width: 18.75rem;
+	border-radius: .5rem 0 0 .5rem;
 }
 
 #left-div {
@@ -32,34 +32,42 @@ main {
 
 #right-div {
 	background-color: hsl(0, 0%, 100%);
-	border-radius: 0 8px 8px 0;
-}
-
-#perfume, h1, #floral {
-	margin: 30px;
+	border-radius: 0 .5rem .5rem 0;
 }
 
 #perfume {
+	margin-top: 1.875rem;
+  margin-right: 1.875rem;
+  margin-bottom: 0;
+  margin-left: 1.875rem;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: .3125rem;
 	color: hsl(228, 12%, 48%);
 }
 
 h1 {
+	margin-top: 1.3rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.875rem;;
 	font-family: 'Fraunces', serif;
-	font-size: 32px;
+	font-size: 2rem;
 	line-height: 100%;
 	color: hsl(212, 21%, 14%);
 }
 
 #floral {
+	margin-top: 1.5rem;
+	margin-right: 1.875rem;
+	margin-bottom: 1.875rem;
+	margin-left: 1.875rem;
 	color: hsl(228, 12%, 48%);
-	line-height: 150%;
+	line-height: 163%;
 }
 
 #newprice {
 	font-family: 'Fraunces', serif;
-	font-size: 32px;
+	font-size: 2rem;
 	line-height: 100%;
 	color: hsl(158, 36%, 37%);
 }
@@ -67,22 +75,28 @@ h1 {
 #oldprice {
 	text-decoration: line-through;
 	color: hsl(228, 12%, 48%);
-	margin-left: 20px;
+	margin-left: 1.25rem;
 }
 
 #prices {
-	margin: 25px 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+	margin-top: 1.5625rem;
+	margin-right: 1.875rem;
+	margin-bottom: 0;
+	margin-left: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 button {
 	width: 240px;
-	margin: 0 30px;
-	height: 48px;
-	border-radius: 10px;
+	margin-top: 1.7rem;
+  margin-right: 1.875rem;
+  margin-bottom: 0px;
+  margin-left: 1.875rem;
+	height: 3rem;
+	border-radius: .625rem;
 	color: #fff;
 	background-color: hsl(158, 36%, 37%);
 	font-family: 'Montserrat', sans-serif;
@@ -101,27 +115,29 @@ button:hover {
   }
 
   #left-div, #right-div {
-		width: 342px;
+		width: 21.375rem;
 	}
 
   #left-div {
 	background-image: url("image-product-mobile.jpg");
 	background-repeat: no-repeat;
-	height: 239px;
+	height: 15rem;
 	/*background-size: cover;*/
-	border-radius: 8px 8px 0 0;
+	border-radius: .5rem .5rem 0 0;
 	}
 
 	#right-div {
-		border-radius: 0 0 8px 8px;
+		border-radius: 0 0 .5rem .5rem;
+		height: 23.125rem;
 	}
 
 	#perfume, h1, #floral {
-	margin: 20px 30px;
+	margin: 1rem 1.8rem;
 	}
 
 	button {
-		margin: 0 30px 20px 30px;
+		width: 17.975rem;
+		margin: 1.2rem 1.7rem;
 	}
 
 }
